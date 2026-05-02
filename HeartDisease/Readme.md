@@ -19,26 +19,29 @@ It includes data preprocessing, feature engineering, training multiple models, a
 ## 📁 Directory Structure
 ------------------
 project_Foxtrot/
+│
 ├── src/
-│   ├── predict.ipynb                - Jupyter notebook with the main code
-│   ├── cardio_train.csv             - Dataset file
-|   |── testingsavelmodels.ipynb     - Testing the saved models with sample inputs   
+│ ├── predict.ipynb # Main notebook (training + evaluation)
+│ ├── cardio_train.csv # Dataset file
+│ └── testingsavelmodels.ipynb # Testing saved models with sample inputs
+│
 ├── models/
-│   ├── RandomForest_model.pkl      - Trained Random Forest model
-│   ├── XGBoost_model.pkl           - Trained XGBoost model
-│   ├── LightGBM_model.pkl          - Trained LightGBM model
-│   ├── DecisionTree_model.pkl      - Trained Decision Tree model
-│   ├── KNN_model.pkl               - Trained KNN model
-│   ├── LogisticRegression_model.pkl - Trained Logistic Regression model
-│   ├── scaler.pkl                  - StandardScaler object
+│ ├── RandomForest_model.pkl # Trained Random Forest model
+│ ├── XGBoost_model.pkl # Trained XGBoost model
+│ ├── LightGBM_model.pkl # Trained LightGBM model
+│ ├── DecisionTree_model.pkl # Trained Decision Tree model
+│ ├── KNN_model.pkl # Trained KNN model
+│ ├── LogisticRegression_model.pkl # Trained Logistic Regression model
+│ └── scaler.pkl # StandardScaler object
+│
 ├── outputs/
-│   ├── correlation_matrix.png      - Correlation matrix plot
-│   ├── confusion_matrix_*.png      - Confusion matrices for each model
-│   ├── feature_importance_*.png    - Feature importance for Random Forest and XGBoost
-│   ├── roc_curves.png              - ROC curves for all models
-├── README.txt                      - This file has instructions 
-├── requirements.txt                - Python dependencies
-
+│ ├── correlation_matrix.png # Correlation matrix visualization
+│ ├── confusion_matrix_.png # Confusion matrices for each model
+│ ├── feature_importance_.png # Feature importance plots
+│ └── roc_curves.png # ROC curves comparison
+│
+├── requirements.txt # Python dependencies
+└── README.md # Project documentation
 
 ---
 
